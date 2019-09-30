@@ -100,5 +100,5 @@ document.querySelector('nav').prepend(preLink);
 let postLink = document.createElement('a');
 postLink.textContent = "After";
 postLink.style.color = "green";
-document.querySelector('nav').append(postLink);
+document.querySelector('nav').appendChild(postLink);
 
